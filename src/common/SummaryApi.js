@@ -1,6 +1,7 @@
 
 
-export const baseURL=import.meta.env.VITE_VITE_API_URL
+// export const baseURL=import.meta.env.VITE_VITE_API_URL
+export const baseURL='https://blinkit-backend-geq4.vercel.app'
 console.log("Base URL in production:", import.meta.env.VITE_VITE_API_URL);
 
 const SummaryAPi={
