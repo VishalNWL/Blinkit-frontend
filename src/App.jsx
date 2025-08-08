@@ -82,6 +82,8 @@ function App() {
     //  fetchCartItem()
   })
 
+  console.log("Base URL in production:", import.meta.env.VITE_VITE_API_URL);
+
   return (
    <GlobalProvider>
     <Header/>
